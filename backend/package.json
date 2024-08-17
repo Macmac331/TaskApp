@@ -1,6 +1,14 @@
 {
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A brief description of your project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
-    "node" : "14.x"
+    "node": "14.x"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
